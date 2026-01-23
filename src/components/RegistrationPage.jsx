@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 export default function RegistrationPage({ onNavigate, formData, onFormChange, onSubmit }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      <Navigation onNavigate={onNavigate} showPostJobsButton={false} />
+      <Navigation onNavigate={onNavigate} showPostJobsButton={false}  />
 
       <div className="max-w-2xl mx-auto px-4 py-16">
         <div className="bg-white rounded-2xl shadow-xl p-8">
